@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Colorful Navigation</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    .navbar {
+      background-color: #003366;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      background-color: #3399ff;
+    }
+
+    .title {
+      float: right;
+      color: white;
+      padding: 14px 20px;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 80px 20px;
+      height: 100vh;
+    }
+
+    #home { background-color: #e6f2ff; }
+    #about { background-color: #f9f2ec; }
+    #services { background-color: #e8f5e9; }
+    #contact { background-color: #fff0f5; }
+
+    h1 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    p {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <div class="title">Sakshi Yadav</div>
+  </div>
+
+  <div id="home" class="section">
+    <h1>Home</h1>
+    <p>Welcome to my colorful homepage.</p>
+  </div>
+
+  <div id="about" class="section">
+    <h1>About</h1>
+    <p>This is a simple colored navigation bar using only HTML and CSS.</p>
+  </div>
+
+  <div id="services" class="section">
+    <h1>Services</h1>
+    <p>We offer web design, basic HTML pages, and beginner projects.</p>
+  </div>
+
+  <div id="contact" class="section">
+    <h1>Contact</h1>
+    <p>Email: sakshiyadav@gmail.com</p>
+  </div>
+
+</body>
+</html>
